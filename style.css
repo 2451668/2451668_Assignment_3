@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +15,7 @@
 body {
     background-color: #f9f9f9;
     min-height: 100vh;
-    overflow: hidden;
+    /*overflow: scroll;*/
 }
 
 header {
@@ -52,7 +56,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 #text {
@@ -64,7 +68,9 @@ header {
 }
 
 .hometext {
+    border-radius: 20px;
     position: relative;
+    top: 100px;
     background-color: blue;
     padding: 100px;
 }
@@ -77,4 +83,50 @@ header {
     font-size: 1em;
     color: #000;
     font-weight: 300;
+}
+.Essaytext {
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    background-color: blue;
+    left: 70px;
+    right: 70px;
+    padding: 100px;
+    
+    margin: 10px;
+}
+.Essaytext h2{
+    font-size: 3em;
+    color: #000;
+    margin-bottom: 10px;
+}
+.Essaytext p{
+    font-size: 1em;
+    color: #000;
+    font-weight: 300;
+}
+
+.Essaybody {
+    position: absolute;
+   
+    left: 0px;
+    right: 0px;
+    background-color: lightblue;
+    padding: 100px;
+}
+
+.References {
+    position: absolute;
+    
+    left: 0px;
+    right: 0px;
+    background-color: lightgrey;
+    padding: 100px;
+    
+}
+
+.References h6{
+    font-size: 1em;
+    color: #000;
+    font-weight: 400;
 }
