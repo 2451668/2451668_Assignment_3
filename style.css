@@ -79,7 +79,7 @@ header {
 }
 .hometext h2{
     font-size: 3em;
-    color: #000;
+    color: #fff;
     margin-bottom: 10px;
 }
 .hometext p{
@@ -120,6 +120,25 @@ header {
     
 }
 
+.Designbody{
+    position: absolute;
+    left: 0px;
+    border-radius: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 100px;
+}
+
+.Designbody img{
+    position: sticky;
+    border-radius: 20px;
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
 .References {
     position: absolute;
     border-radius: 20px;
@@ -149,7 +168,7 @@ header {
     padding: 20px;
     width: 300px;
     height: 600px;
-    background-color: white;
+    background-color: black;
     
 }
 
@@ -157,6 +176,7 @@ header {
     padding: 70px;
     font-size: 1.7em;
     text-align: left;
+    color: #f9f9f9;
 }
 
 .Witslogo img{
